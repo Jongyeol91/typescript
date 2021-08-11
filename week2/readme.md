@@ -332,7 +332,7 @@ let sub8: { a: string; b: number } = { a: '', b: 1 };
 let sup8: { a: string | number; b: number } = sub8;
 ```
 
-### 함수의 매개변수 타입만 같거나, 슈퍼타입인 경우, 할당이 가능하다 (공변)
+### 함수의 매개변수 타입만 같거나, 슈퍼타입인 경우, 할당이 가능하다 (반병)
 ```ts
 class Person{}
 class Developer extends Person {
